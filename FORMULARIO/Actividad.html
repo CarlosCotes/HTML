@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+        body {background-color: black;
+            color: gray;
+        
+        }
+
+        form {
+            color: gray;
+            border: 1px solid red;
+            
+        }
+
+    </style>
+</head>
+
+<body>
+    <h1><center>User Registration Form</center></h1><hr><br>
+    <center>
+        <h4>FILL OUT THE FORM IN THE APPROPRIATE FORM</h4>
+    </center>
+    <form action="send" method="get" autocomplete="on" accept-charset="on" name="Formulario Registro " target="_blank" >
+        <center>
+            <label for="username"> USERNAME
+                <input type="text" name="username" id="username" placeholder="Enter your full name" size="25" required>
+            </label>
+            <br>
+            <label for="email">EMAIL
+                <input type="email" name="email" id="email" placeholder="Enter your email" size="30" required>
+            </label>
+            <br>
+            <label for="password"> PASSWORD
+                <input type="password" name="password" id="password" placeholder="Enter your password" min="8" size="25" required>
+            </label>
+            <br>
+            <label for="Vpassword"> VERIFY PASSWORD
+                <input type="password" name="Vpassword" id="Vpassword" placeholder="Enter your password" min="8" size="15" required>
+            </label>
+            <br>
+            <label for="age"> AGE
+                <input type="date" name="age" id="age" placeholder="Enter date of birth" max ="2005-05-27" size="30" required>
+            </label>
+            <br>
+            <label for="gender">GENDER<strong>:</strong><br>
+                <input type="radio" name="gender"> Male
+                <input type="radio" name="gender"> Female
+                <input type="radio" name="gender"> other
+                <input type="radio" name="gender"> I prefer not to say
+                
+            </label>
+            <br>
+            <label for="gustos">Preferencias<strong>:</strong><br>
+                <input type="radio" name="gustos"> VIAJES
+                <input type="radio" name="gustos"> TECNOLOGIA
+                <input type="radio" name="gustos"> DEPORTE
+                <input type="radio" name="gustos"> MUSICA
+            </label>
+            <br>
+            <label for="PAIS">PAIS
+                <select name="PAIS" id="PAIS" >
+                    <option value="Ingrese una opcion"></option>
+                    <option value="Colombia">Colombia</option>
+                    <option value="Panama">Panama</option>
+                    <option value="Venezuela">Venezuela</option>
+                    <option value="Brasil">Brasil</option>
+                    <option value="Ecuador">Ecuador</option>
+                </select> 
+
+            </label>
+            <br>
+            <label for="Biografia"> small autobiography 
+                <br>
+                <textarea name="Biografia" id="Biografia" placeholder="Make an autobiography " required> </textarea>
+            </label>
+            <br>
+            <input type="submit">
+        </center>
+    </form>
+</body>
+</html>

@@ -1,0 +1,41 @@
+:root{
+    background-image: url(https://image.api.playstation.com/vulcan/img/cfn/11307uYG0CXzRuA9aryByTHYrQLFz-HVQ3VVl7aAysxK15HMpqjkAIcC_R5vdfZt52hAXQNHoYhSuoSq_46_MT_tDBcLu49I.png) ;
+    background-size: ();
+    background-attachment: scroll;
+    color: white;
+
+}
+nav{
+    a[ref]{
+        color: green;
+    }
+}
+body{
+    img{
+        position: static;
+    }
+    background-color: rgb(0 0 0/ 50%);
+    color: white;
+}
+header{
+    h1{
+        color: gray;
+        border: white;
+    }
+    br{
+        color:green;
+    }
+    h2{
+        color: green;
+    }
+}
+
+article{
+    h2{
+        color: green;
+    }
+}
+
+#title1{
+    background: radial-gradient(blue,green);
+}
