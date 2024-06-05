@@ -1,0 +1,39 @@
+:root{
+    background-image:url(https://wallpapercave.com/wp/wp3978115.jpg);
+    background-attachment:fixed ;
+    color: white;
+    background-position-x: center;
+    background-position-y: center;
+
+
+}
+#INF{
+    float: right;
+    width: 200px;
+    border: 10px white solid;
+    background-color: black;
+}
+body{
+    background-color:   rgb(0 0 0 / 50%);
+}
+header{
+    img{
+        float: right;
+        width: 250px;
+        
+        border: 10px white solid;
+    
+    }
+}
+nav{
+    ul{
+        list-style-image: url(lista-de-vinetas.png);
+    }
+}
+article{
+    img{
+        float: right;
+        width: 400px;
+
+    }
+}
