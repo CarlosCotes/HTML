@@ -1,0 +1,75 @@
+:root{
+    background-color:white;
+}
+
+.container{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+    background-color: aquamarine;    
+    display: flex;
+    flex-direction: row;
+    height: auto;
+}
+.TPC{
+display: flex;
+
+    #TPCP{
+    display: flex;
+    border:5px solid black ;
+    background-color: white;
+    justify-content: start;
+    }
+    #TPCN{
+        display: flex;
+        border:5px solid black ;
+        background-color: white;
+        justify-content: start;
+    
+    }
+    #TPCE{
+        display: flex;
+        border:5px solid black ;
+        background-color: white;
+        justify-content: start;
+        
+    }
+    #TPCI{
+        display: flex;
+        border:5px solid black ;
+        background-color: white;
+        justify-content: start;
+
+    }
+
+}
+.containerderecha{
+    display: inline;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+    background-color: beige;
+    flex-direction: row;
+    width: 70%;
+
+    #TPCMC{
+        display: inline;
+        display: flex;
+        border:5px solid black ;
+        background-color: white;
+        justify-content: end;
+        flex-direction: row;
+
+    }
+    #TPCPA{
+        display: inline;
+        display: flex;
+        border:5px solid black ;
+        background-color: white;        
+        flex-direction: row;
+        justify-content:end;
+
+    }
+}
+nav{
+    background-color: red;
+    height: 50px;
+}
